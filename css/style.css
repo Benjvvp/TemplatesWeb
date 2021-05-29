@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@450&display=swap');
+
+.navbar {
+    background: none;
+}
+
+.fontswap {
+    font-family: 'Padauk', sans-serif !important;
+}
+
+.me-10 {
+    margin-right: 10%;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    letter-spacing: 1.5px;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+    transition: 0.2s all ease-in;
+}
+
+.nav-link:hover {
+    color: rgb(255, 0, 234) !important;
+}
+
+.tittlemain {
+    font-size: 90px;
+    font-family: 'Oswald', sans-serif;
+    word-spacing: 15px;
+}
+
+.carousel-caption {
+    bottom: 30%;
+}
+
+.carousel-inner {
+    bottom: 30%;
+}
+
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-radius: 100% !important;
+    border-top: 0;
+    border-bottom: 0;
+    height: 10px;
+    width: 10px;
+    border: 2px solid #fff;
+    font-size: 10px;
+    background-color: transparent;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+}
+
+.iconrow{
+    padding: 25px;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.200);
+    border-radius: 100%;
+    font-size: 30px;
+    color: orange;
+}
+.bg-dark{
+    transition: 0.5s ease all;
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+/* Footer */
+.socials{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.socials i{
+    padding: 10px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.si{
+    border-radius: 100%;
+    transition: all 0.5s ease;
+    color: white !important;
+}
+.si:hover{
+    background-color: violet;
+    padding: 10px;
+}
+.hover-overlay{
+    transition: all 0.5s ease;
+}
+.hover-overlay:hover{
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.295);
+    transform: scale(1.05);
+}
+#alertcontact{
+    transition: all 1s ease;
+}
+#loader{
+    height: 100vh;
+}
+.loader{
+    padding-top: 20%;
+    font-size: 30px;
+}
+.spinner-border{
+    width: 70px;
+    height: 70px;
+}
